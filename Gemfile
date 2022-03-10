@@ -61,3 +61,5 @@ gem 'solidus_backend'
 gem 'solidus_sample'
 gem 'solidus_auth_devise'
 gem 'solidus_paypal_commerce_platform'
+
+gem 'solidus_support', github: 'gsmendoza/solidus_support', branch: 'gsmendoza/eng-300-add'

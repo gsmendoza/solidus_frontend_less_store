@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/gsmendoza/solidus_support.git
+  revision: 2ba53de5e58558947186fd3a571b21e12afe53c8
+  branch: gsmendoza/eng-300-add
+  specs:
+    solidus_support (0.8.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -319,7 +326,6 @@ GEM
       solidus_webhooks (~> 0.2)
     solidus_sample (3.1.5)
       solidus_core (= 3.1.5)
-    solidus_support (0.8.1)
     solidus_webhooks (0.4.0)
       solidus_core (>= 2.0.0, < 4)
       solidus_support (~> 0.6)
@@ -391,6 +397,7 @@ DEPENDENCIES
   solidus_core
   solidus_paypal_commerce_platform
   solidus_sample
+  solidus_support!
   spring
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
